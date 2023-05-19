@@ -1,10 +1,9 @@
-import { View, Text } from "react-native";
-import React from "react";
+import { Text, SafeAreaView } from "react-native";
 
 export default function Pokemon() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Pokemon</Text>
-    </View>
+    </SafeAreaView>
   );
 }
