@@ -7,9 +7,13 @@ import {
   View,
 } from "react-native";
 import React from "react";
+import getColorByPokemonType from "../utils/getColorBackground";
 
 export default function PokemonCard(props) {
   const { pokemon } = props;
+
+  const pokemonColor = getColorByPokemonType(pokemon.type);
+  const bgStyles = { backgroundColor: pokemonColor, ...styles.bgStyles };
 
   const goToPokemon = () => {};
 
@@ -17,7 +21,7 @@ export default function PokemonCard(props) {
     <TouchableWithoutFeedback onPress={goToPokemon}>
       <SafeAreaView style={styles.card}>
         <View style={styles.spacing}>
-          <View style={styles.bgStyle}>
+          <View style={bgStyles}>
             <Text style={styles.number}>
               #{`${pokemon.order}`.padStart(3, 0)}
             </Text>
@@ -39,8 +43,10 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 5,
   },
-  bgStyle: {
-    backgroundColor: "grey",
+  bgStyles: {
+    flex: 1,
+    borderRadius: 15,
+    padding: 10,
   },
   number: {
     position: "absolute",
