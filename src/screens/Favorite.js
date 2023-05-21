@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { Text, SafeAreaView } from "react-native";
+import { Text } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import { getPokemonFavoritesApi } from "../api/favorite";
 import { getPokemonDetail } from "../api/pokemon";
@@ -40,13 +40,9 @@ export default function Favorite() {
     }, [auth])
   );
 
-  return (
-    <SafeAreaView>
-      {auth ? (
-        <PokemonList pokemons={pokemons} />
-      ) : (
-        <Text>Usuario no logueado</Text>
-      )}
-    </SafeAreaView>
+  return !auth ? (
+    <Text>Usuario no logeado</Text>
+  ) : (
+    <PokemonList pokemons={pokemons} />
   );
 }
