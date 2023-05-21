@@ -53,7 +53,7 @@ export default function Favorite(props) {
         size={20}
         onPress={isFavorite ? removeFavorite : addFavorite}
         solid={isFavorite}
-        style={{ marginRight: 20 }}
+        style={{ marginRight: 5 }}
       />
     </View>
   );

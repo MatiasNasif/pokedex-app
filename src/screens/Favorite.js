@@ -1,10 +1,11 @@
 import React, { useState, useCallback } from "react";
-import { Text } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import { getPokemonFavoritesApi } from "../api/favorite";
 import { getPokemonDetail } from "../api/pokemon";
 import useAuth from "../hooks/useAuth";
 import PokemonList from "../components/PokemonList";
+import NoLogged from "../components/NoLogged";
 
 export default function Favorite() {
   const [pokemons, setPokemons] = useState([]);
@@ -41,8 +42,16 @@ export default function Favorite() {
   );
 
   return !auth ? (
-    <Text>Usuario no logeado</Text>
+    <NoLogged />
   ) : (
-    <PokemonList pokemons={pokemons} />
+    <View style={styles.content}>
+      <PokemonList pokemons={pokemons} />
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  content: {
+    marginTop: Platform.OS === "android" ? -50 : -20,
+  },
+});
