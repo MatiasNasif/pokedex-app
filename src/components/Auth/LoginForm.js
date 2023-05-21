@@ -32,7 +32,7 @@ export default function LoginForm() {
   });
 
   return (
-    <View>
+    <View style={styles.content}>
       <Text style={styles.title}>Iniciar sesión</Text>
       <TextInput
         placeholder="Nombre de usuario"
@@ -72,6 +72,9 @@ const validationSchema = () => {
 };
 
 const styles = StyleSheet.create({
+  content: {
+    marginHorizontal: 20,
+  },
   title: {
     textAlign: "center",
     fontSize: 28,
@@ -81,7 +84,7 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    margin: 12,
+    marginBottom: 20,
     borderWidth: 1,
     padding: 10,
     borderRadius: 10,
