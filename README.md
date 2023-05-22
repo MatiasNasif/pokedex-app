@@ -8,7 +8,7 @@
  <img src="assets/icon.png" align="center" alt="Pokedex App" />
 </p>
 
-# Pokedex App
+# <p align="center">Pokedex App</p>
 
 Pokedex es una aplicación **móvil** desarrollada con **React Native** que te permite visualizar información detallada sobre los diferentes pokémones existentes, así como agregar tus favoritos con un usuario registrado.
 
