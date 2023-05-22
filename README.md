@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Versión-1.0.0-blue.svg" alt="Versión"> 
-  <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen.svg" alt="Estado del proyecto"> 
+  <img src="https://img.shields.io/badge/Versión-1.0.0-blue.svg" alt="Versión">
+  <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen.svg" alt="Estado del proyecto">
   <img src="https://img.shields.io/badge/Licencia-MIT-green.svg" alt="Licencia">
 </p>
 
@@ -12,6 +12,32 @@
 
 Pokedex es una aplicación **móvil** desarrollada con **React Native** que te permite visualizar información detallada sobre los diferentes pokémones existentes, así como agregar tus favoritos con un usuario registrado.
 
+## Requisitos
+
+Asegúrate de cumplir con los siguientes **requisitos** del entorno antes de ejecutar la aplicación:
+
+Node.js (versión recomendada: 14.x o superior)
+NPM (Node Package Manager)
+
+## Dependencias del proyecto
+
+A continuación se enumeran las dependencias específicas del proyecto incluidas en el archivo package.json:
+
+@react-native-async-storage/async-storage: ^1.17.11
+@react-navigation/bottom-tabs: ^6.5.7
+@react-navigation/native: ^6.1.6
+@react-navigation/native-stack: ^6.9.12
+expo: ~48.0.15
+expo-status-bar: ~1.4.4
+formik: ^2.2.9
+lodash: ^4.17.21
+react: 18.2.0
+react-native: 0.71.8
+react-native-safe-area-context: 4.5.0
+react-native-screens: ~3.20.0
+react-native-vector-icons: ^9.2.0
+yup: ^1.1.1
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local.
@@ -19,6 +45,8 @@ Pokedex es una aplicación **móvil** desarrollada con **React Native** que te p
 **cd pokedex-app**
 3. Instala las dependencias utilizando el administrador de paquetes npm.
 **npm install**
+4. Actualiza las dependencias utilizando el administrador de paquetes npm.
+**npm update**
 
 ## Ejecución
 
