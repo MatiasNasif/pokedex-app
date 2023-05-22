@@ -1,5 +1,7 @@
 <p align="center">
-![Versión](https://img.shields.io/badge/Versión-1.0.0-blue.svg) ![Estado del proyecto](https://img.shields.io/badge/Estado-Finalizado-brightgreen.svg) ![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)
+  <img src="https://img.shields.io/badge/Versión-1.0.0-blue.svg" alt="Versión"> 
+  <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen.svg" alt="Estado del proyecto"> 
+  <img src="https://img.shields.io/badge/Licencia-MIT-green.svg" alt="Licencia">
 </p>
 
 <p align="center">
