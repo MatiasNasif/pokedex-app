@@ -16,8 +16,8 @@ Pokedex es una aplicación **móvil** desarrollada con **React Native** que te p
 
 Asegúrate de cumplir con los siguientes **requisitos** del entorno antes de ejecutar la aplicación:
 
-Node.js (versión recomendada: 14.x o superior)
-NPM (Node Package Manager)
+- Node.js (versión recomendada: 14.x o superior)
+- NPM (Node Package Manager)
 
 ## Dependencias del proyecto
 
