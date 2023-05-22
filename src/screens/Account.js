@@ -7,9 +7,5 @@ import useAuth from "../hooks/useAuth";
 export default function Account() {
   const { auth } = useAuth();
 
-  return (
-    <SafeAreaView>
-      {auth ? <UserData /> : <LoginForm />}
-    </SafeAreaView>
-  );
+  return <SafeAreaView>{auth ? <UserData /> : <LoginForm />}</SafeAreaView>;
 }
