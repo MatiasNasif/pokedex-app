@@ -23,20 +23,20 @@ NPM (Node Package Manager)
 
 A continuación se enumeran las dependencias específicas del proyecto incluidas en el archivo package.json:
 
-@react-native-async-storage/async-storage: ^1.17.11
-@react-navigation/bottom-tabs: ^6.5.7
-@react-navigation/native: ^6.1.6
-@react-navigation/native-stack: ^6.9.12
-expo: ~48.0.15
-expo-status-bar: ~1.4.4
-formik: ^2.2.9
-lodash: ^4.17.21
-react: 18.2.0
-react-native: 0.71.8
-react-native-safe-area-context: 4.5.0
-react-native-screens: ~3.20.0
-react-native-vector-icons: ^9.2.0
-yup: ^1.1.1
+- @react-native-async-storage/async-storage: ^1.17.11
+- @react-navigation/bottom-tabs: ^6.5.7
+- @react-navigation/native: ^6.1.6
+- @react-navigation/native-stack: ^6.9.12
+- expo: ~48.0.15
+- expo-status-bar: ~1.4.4
+- formik: ^2.2.9
+- lodash: ^4.17.21
+- react: 18.2.0
+- react-native: 0.71.8
+- react-native-safe-area-context: 4.5.0
+- react-native-screens: ~3.20.0
+- react-native-vector-icons: ^9.2.0
+- yup: ^1.1.1
 
 ## Instalación
 
