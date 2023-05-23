@@ -89,4 +89,18 @@ Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## Link de descarga del APK
 
-[Descargar](https://expo.dev/artifacts/eas/4LBMZuACjHMGdKrkEMEDPW.apk)
+[Presionar aquí para descargar](https://expo.dev/artifacts/eas/4LBMZuACjHMGdKrkEMEDPW.apk)
+
+## Capturas de pantalla
+
+<p align="center">
+  <img src="assets/screens/main-screen.jpg" alt="main-screen" />
+  <img src="assets/screens/details-pokemon.jpg" alt="details-pokemon" />
+  <img src="assets/screens/login.jpg" alt="login" />
+</p>
+
+<p align="center">
+  <img src="assets/screens/favorites-without-logging-in.jpg" alt="favorites-without-logging-in" />
+  <img src="assets/screens/favorites.jpg" alt="favorites" />
+  <img src="assets/screens/account.jpg" alt="account" />
+</p>
