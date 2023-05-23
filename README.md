@@ -94,13 +94,13 @@ Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).
 ## Capturas de pantalla
 
 <p align="center">
-  <img src="assets/screens/main-screen.jpg" alt="main-screen" />
-  <img src="assets/screens/details-pokemon.jpg" alt="details-pokemon" />
-  <img src="assets/screens/login.jpg" alt="login" />
+  <img src="assets/screens/main-screen.jpg" alt="main-screen" width="250" heigth="400" style="margin-right: 10px;"/>
+  <img src="assets/screens/details-pokemon.jpg" alt="details-pokemon" width="250" heigth="400" style="margin-right: 10px;"/>
+  <img src="assets/screens/login.jpg" alt="login" width="250" heigth="400" style="margin-right: 10px;"/>
 </p>
 
 <p align="center">
-  <img src="assets/screens/favorites-without-logging-in.jpg" alt="favorites-without-logging-in" />
-  <img src="assets/screens/favorites.jpg" alt="favorites" />
-  <img src="assets/screens/account.jpg" alt="account" />
+  <img src="assets/screens/favorites-without-logging-in.jpg" alt="favorites-without-logging-in"width="250" heigth="400" style="margin-right: 10px;"/>
+  <img src="assets/screens/favorites.jpg" alt="favorites"width="250" heigth="400" style="margin-right: 10px;"/>
+  <img src="assets/screens/account.jpg" alt="account" width="250" heigth="400" style="margin-right: 10px;"/>
 </p>
